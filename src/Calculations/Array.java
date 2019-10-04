@@ -2,9 +2,11 @@ package Calculations;
 
 import java.util.LinkedList;
 
-public class Array {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Array {
+    @Test
+	public  void listArray() {
 
 		LinkedList<String> names = new LinkedList<>();
 		names.add(0, "John");
